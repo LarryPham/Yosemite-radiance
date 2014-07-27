@@ -148,7 +148,7 @@ GtkSwitch.trough:active {
 
 .menubar.menuitem:hover,
 .menubar .menuitem:hover {
-    border: 1px solid #2e2e2c;
+    border: 0px solid #2e2e2c;
     border-bottom-width: 0px;
     border-radius: 4px 4px 0 0;
 }
