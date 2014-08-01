@@ -12,7 +12,7 @@ UnityDecoration {
     -UnityDecoration-inactive-shadow-radius: 25px;
 
     -UnityDecoration-glow-size: 10px;
-    -UnityDecoration-glow-color: rgb (221, 72, 20);
+    -UnityDecoration-glow-color: #6080ff;
 
     -UnityDecoration-title-indent: 10px;
     -UnityDecoration-title-fade: 35px;
@@ -26,7 +26,7 @@ UnityDecoration.top {
     padding: 1px 6px 0 6px;
 
     box-shadow: inset 0 0 transparent, inset 0 0 transparent,
-                inset 0 1px @dark_bg_color, inset 0 0 transparent;
+                inset 0 0px @dark_bg_color, inset 0 0 transparent;
 
     background-color: transparent;
     background-clip: border-box;
@@ -61,7 +61,8 @@ UnityDecoration.bottom {
 UnityPanelWidget,
 .unity-panel {
     background-image: none;
-    border-bottom-color: @dark_bg_color;
+    border-color: @dark_bg_color;
+    -unico-border-gradient: none;
     border-width: 0 0 1px 0;
     border-style: solid;
     box-shadow: inset 0 0 transparent, inset 0 0 transparent,
